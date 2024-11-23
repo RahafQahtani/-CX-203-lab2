@@ -1,0 +1,464 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov 23 21:49:29 2024
+# Process ID: 753651
+# Current directory: /home/it/project_1/project_1.runs/synth_1
+# Command line: vivado -log K2_Microprosser.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source K2_Microprosser.tcl
+# Log file: /home/it/project_1/project_1.runs/synth_1/K2_Microprosser.vds
+# Journal file: /home/it/project_1/project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source K2_Microprosser.tcl -notrace
+Command: synth_design -top K2_Microprosser -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 753716 
+WARNING: [Synth 8-2611] redeclaration of ansi port s is not allowed [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:31]
+WARNING: [Synth 8-2611] redeclaration of ansi port c is not allowed [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:31]
+WARNING: [Synth 8-976] s has already been declared [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:31]
+WARNING: [Synth 8-2654] second declaration of s ignored [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:31]
+INFO: [Synth 8-994] s is declared here [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:28]
+INFO: [Synth 8-994] c is declared here [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:27]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1781.656 ; gain = 160.656 ; free physical = 1178 ; free virtual = 9399
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'K2_Microprosser' [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clock_divider' [/home/it/project_1/project_1.srcs/sources_1/new/clock_divider.sv:23]
+	Parameter N bound to: 100000000 - type: integer 
+	Parameter WIDTH bound to: 27 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clock_divider' (1#1) [/home/it/project_1/project_1.srcs/sources_1/new/clock_divider.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'Instruction_Memory' [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Instruction_Memory.sv:23]
+	Parameter Width bound to: 8 - type: integer 
+	Parameter Depth bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Instruction_Memory' (2#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Instruction_Memory.sv:23]
+WARNING: [Synth 8-689] width (8) of port connection 'data' does not match port width (9) of module 'Instruction_Memory' [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:65]
+INFO: [Synth 8-6157] synthesizing module 'instructions_decoder' [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'instructions_decoder' (3#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv:23]
+WARNING: [Synth 8-689] width (8) of port connection 'IMM' does not match port width (3) of module 'instructions_decoder' [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:80]
+INFO: [Synth 8-6157] synthesizing module 'decoder' [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/decoder.sv:23]
+	Parameter N bound to: 8 - type: integer 
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000001010 is unreachable [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/decoder.sv:33]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000001011 is unreachable [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/decoder.sv:34]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (4#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/decoder.sv:23]
+WARNING: [Synth 8-689] width (4) of port connection 'En' does not match port width (8) of module 'decoder' [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:87]
+INFO: [Synth 8-6157] synthesizing module 'Multiplexers' [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Multiplexers/Assignment3-Multiplexers.srcs/sources_1/new/Multiplexers.sv:23]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Multiplexers' (5#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Multiplexers/Assignment3-Multiplexers.srcs/sources_1/new/Multiplexers.sv:23]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (8) of module 'Multiplexers' [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:119]
+INFO: [Synth 8-6157] synthesizing module 'Data_Memory' [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv:23]
+	Parameter Width bound to: 8 - type: integer 
+	Parameter Depth bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Data_Memory' (6#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv:23]
+	Parameter N bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fulladder' [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/fulladder.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'halfadder' [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'halfadder' (7#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder' (8#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/fulladder.sv:23]
+WARNING: [Synth 8-324] index 8 out of range [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (9#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'DFlip_Flop' [/home/it/project_1/project_1.srcs/sources_1/imports/new/D Flip_Flop.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'Dlatch' [/home/it/project_1/project_1.srcs/sources_1/imports/new/Dlatch.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'Dlatch' (10#1) [/home/it/project_1/project_1.srcs/sources_1/imports/new/Dlatch.sv:23]
+WARNING: [Synth 8-3848] Net CLK100MHZ in module/entity DFlip_Flop does not have driver. [/home/it/project_1/project_1.srcs/sources_1/imports/new/D Flip_Flop.sv:36]
+INFO: [Synth 8-6155] done synthesizing module 'DFlip_Flop' (11#1) [/home/it/project_1/project_1.srcs/sources_1/imports/new/D Flip_Flop.sv:23]
+WARNING: [Synth 8-7023] instance 'carryDFF' of module 'DFlip_Flop' has 5 connections declared, but only 4 given [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:147]
+INFO: [Synth 8-6157] synthesizing module 'Counter' [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv:23]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Counter' (12#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv:23]
+CRITICAL WARNING: [Synth 8-5972] variable 'pc' cannot be written by both continuous and procedural assignments [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:167]
+INFO: [Synth 8-6157] synthesizing module 'n_bit_register' [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Register/Assignment3-Register.srcs/sources_1/imports/new/n_bit_register.sv:23]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'n_bit_register' (13#1) [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Register/Assignment3-Register.srcs/sources_1/imports/new/n_bit_register.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'sev_seg_top' [/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'sev_seg_controller' [/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg_controller.sv:2]
+	Parameter display_speed bound to: 20 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'seven_seg_decoder' [/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg_decoder.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg_decoder' (14#1) [/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg_decoder.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'sevdecoder' [/home/it/project_1/project_1.srcs/sources_1/new/sevdecoder.sv:23]
+	Parameter n bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sevdecoder' (15#1) [/home/it/project_1/project_1.srcs/sources_1/new/sevdecoder.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'counter_n_bit' [/home/it/project_1/project_1.srcs/sources_1/imports/src/counter_n_bit.sv:1]
+	Parameter n bound to: 20 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'counter_n_bit' (16#1) [/home/it/project_1/project_1.srcs/sources_1/imports/src/counter_n_bit.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'sev_seg_controller' (17#1) [/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg_controller.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'sev_seg_top' (18#1) [/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg.sv:1]
+WARNING: [Synth 8-3848] Net reg_in_RO in module/entity K2_Microprosser does not have driver. [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:41]
+INFO: [Synth 8-6155] done synthesizing module 'K2_Microprosser' (19#1) [/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv:23]
+WARNING: [Synth 8-3331] design DFlip_Flop has unconnected port CLK
+WARNING: [Synth 8-3331] design ALU has unconnected port clk
+WARNING: [Synth 8-3331] design Data_Memory has unconnected port addr[7]
+WARNING: [Synth 8-3331] design Data_Memory has unconnected port addr[6]
+WARNING: [Synth 8-3331] design Data_Memory has unconnected port addr[5]
+WARNING: [Synth 8-3331] design Data_Memory has unconnected port addr[4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1811.562 ; gain = 190.562 ; free physical = 1163 ; free virtual = 9386
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1829.375 ; gain = 208.375 ; free physical = 1165 ; free virtual = 9387
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1829.375 ; gain = 208.375 ; free physical = 1165 ; free virtual = 9387
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/it/project_1/project_1.srcs/constrs_1/imports/src/pin-assignment.xdc]
+WARNING: [Vivado 12-507] No nets matched '<myHier/myNet>'. [/home/it/project_1/project_1.srcs/constrs_1/imports/src/pin-assignment.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/it/project_1/project_1.srcs/constrs_1/imports/src/pin-assignment.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/it/project_1/project_1.srcs/constrs_1/imports/src/pin-assignment.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/it/project_1/project_1.srcs/constrs_1/imports/src/pin-assignment.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/K2_Microprosser_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/K2_Microprosser_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2012.031 ; gain = 0.000 ; free physical = 1118 ; free virtual = 9343
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2012.031 ; gain = 0.000 ; free physical = 1118 ; free virtual = 9343
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1114 ; free virtual = 9336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1114 ; free virtual = 9336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1114 ; free virtual = 9336
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "memory" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'RW_reg' [/home/it/project_1/project_1.srcs/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv:39]
+WARNING: [Synth 8-327] inferring latch for variable 'data_out_reg' [/home/it/project_1/project_1.srcs/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv:44]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1114 ; free virtual = 9337
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'mux_RA' (Multiplexers) to 'mux_RB'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 24    
++---Registers : 
+	               27 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---RAMs : 
+	              128 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	  14 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module K2_Microprosser 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+Module Instruction_Memory 
+Detailed RTL Component Info : 
++---Muxes : 
+	  14 Input      8 Bit        Muxes := 1     
+Module decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+Module Multiplexers 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+Module Data_Memory 
+Detailed RTL Component Info : 
++---RAMs : 
+	              128 Bit         RAMs := 1     
+Module halfadder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+Module Counter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module n_bit_register 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module counter_n_bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design K2_Microprosser has port seg[0] driven by constant 1
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[4]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[0]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[5]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[1]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[6]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[2]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[7]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[3]  is always disabled
+WARNING: [Synth 8-264] enable of latch \data_memory/data_out_reg[3]  is always disabled
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\decoder/RW_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/q_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\R0/q_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\R0/q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/q_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/q_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\R0/q_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\R0/q_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/q_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/q_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\R0/q_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\R0/q_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/q_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/q_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\R0/q_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\R0/q_reg[3] )
+WARNING: [Synth 8-3332] Sequential element (decoder/RW_reg) is unused and will be removed from module K2_Microprosser.
+WARNING: [Synth 8-3332] Sequential element (data_memory/data_out_reg[7]) is unused and will be removed from module K2_Microprosser.
+WARNING: [Synth 8-3332] Sequential element (data_memory/data_out_reg[6]) is unused and will be removed from module K2_Microprosser.
+WARNING: [Synth 8-3332] Sequential element (data_memory/data_out_reg[5]) is unused and will be removed from module K2_Microprosser.
+WARNING: [Synth 8-3332] Sequential element (data_memory/data_out_reg[4]) is unused and will be removed from module K2_Microprosser.
+WARNING: [Synth 8-3332] Sequential element (data_memory/data_out_reg[3]) is unused and will be removed from module K2_Microprosser.
+WARNING: [Synth 8-3332] Sequential element (data_memory/data_out_reg[2]) is unused and will be removed from module K2_Microprosser.
+WARNING: [Synth 8-3332] Sequential element (data_memory/data_out_reg[1]) is unused and will be removed from module K2_Microprosser.
+WARNING: [Synth 8-3332] Sequential element (data_memory/data_out_reg[0]) is unused and will be removed from module K2_Microprosser.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1114 ; free virtual = 9339
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1062 ; free virtual = 9287
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     5|
+|3     |LUT1   |     2|
+|4     |LUT2   |     2|
+|5     |LUT3   |     8|
+|6     |FDRE   |    20|
+|7     |IBUF   |     2|
+|8     |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+-------------------+------+
+|      |Instance          |Module             |Cells |
++------+------------------+-------------------+------+
+|1     |top               |                   |    56|
+|2     |  sev_seg_display |sev_seg_top        |    37|
+|3     |    ssc           |sev_seg_controller |    37|
+|4     |      counter     |counter_n_bit      |    37|
++------+------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2012.031 ; gain = 208.375 ; free physical = 1054 ; free virtual = 9280
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 2012.031 ; gain = 391.031 ; free physical = 1054 ; free virtual = 9280
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2012.031 ; gain = 0.000 ; free physical = 1039 ; free virtual = 9264
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+71 Infos, 49 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2012.031 ; gain = 629.914 ; free physical = 1082 ; free virtual = 9308
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2012.031 ; gain = 0.000 ; free physical = 1082 ; free virtual = 9308
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/it/project_1/project_1.runs/synth_1/K2_Microprosser.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file K2_Microprosser_utilization_synth.rpt -pb K2_Microprosser_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 23 21:49:48 2024...

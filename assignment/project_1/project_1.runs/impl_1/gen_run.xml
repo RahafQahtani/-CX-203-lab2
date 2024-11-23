@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1732387768">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="K2_Microprosser.drc"/>
+  <File Type="BG-BGN" Name="K2_Microprosser.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="K2_Microprosser.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="K2_Microprosser.ltx"/>
+  <File Type="BITSTR-MMI" Name="K2_Microprosser.mmi"/>
+  <File Type="BITSTR-BMM" Name="K2_Microprosser_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="K2_Microprosser.nky"/>
+  <File Type="BITSTR-RBT" Name="K2_Microprosser.rbt"/>
+  <File Type="BITSTR-MSK" Name="K2_Microprosser.msk"/>
+  <File Type="BG-BIN" Name="K2_Microprosser.bin"/>
+  <File Type="BG-BIT" Name="K2_Microprosser.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="K2_Microprosser_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="K2_Microprosser_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="K2_Microprosser_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="K2_Microprosser.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="K2_Microprosser_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="K2_Microprosser_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="K2_Microprosser_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="K2_Microprosser_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="K2_Microprosser_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="K2_Microprosser_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="K2_Microprosser_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="K2_Microprosser_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="K2_Microprosser_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="K2_Microprosser_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="K2_Microprosser_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="K2_Microprosser_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="K2_Microprosser_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="K2_Microprosser_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="K2_Microprosser_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="K2_Microprosser_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="K2_Microprosser_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="K2_Microprosser_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="K2_Microprosser_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="K2_Microprosser_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="K2_Microprosser_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="K2_Microprosser_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="K2_Microprosser_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="K2_Microprosser_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="K2_Microprosser_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="K2_Microprosser_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="K2_Microprosser_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="K2_Microprosser_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="K2_Microprosser_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="K2_Microprosser_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="K2_Microprosser_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="K2_Microprosser_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="K2_Microprosser_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="K2_Microprosser_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="K2_Microprosser_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="K2_Microprosser_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="K2_Microprosser_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="K2_Microprosser_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="K2_Microprosser_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="K2_Microprosser_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="K2_Microprosser_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="K2_Microprosser_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="K2_Microprosser_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="K2_Microprosser.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="K2_Microprosser_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="K2_Microprosser_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="K2_Microprosser_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="K2_Microprosser_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="K2_Microprosser_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="K2_Microprosser_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="K2_Microprosser_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="K2_Microprosser.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv"/>
+        <Attr Name="ImportTime" Val="1732189627"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv"/>
+        <Attr Name="ImportTime" Val="1732185176"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/D Flip_Flop.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/project_9/project_9.srcs/sources_1/imports/new/D Flip_Flop.sv"/>
+        <Attr Name="ImportTime" Val="1731924470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv"/>
+        <Attr Name="ImportTime" Val="1732370862"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Dlatch.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/project_9/project_9.srcs/sources_1/imports/new/Dlatch.sv"/>
+        <Attr Name="ImportTime" Val="1731929228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Instruction_Memory.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Instruction_Memory.sv"/>
+        <Attr Name="ImportTime" Val="1732370860"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Multiplexers/Assignment3-Multiplexers.srcs/sources_1/new/Multiplexers.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Multiplexers/Assignment3-Multiplexers.srcs/sources_1/new/Multiplexers.sv"/>
+        <Attr Name="ImportTime" Val="1732380167"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_divider.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/counter_n_bit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/counter_n_bit.sv"/>
+        <Attr Name="ImportTime" Val="1731075515"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/decoder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/decoder.sv"/>
+        <Attr Name="ImportTime" Val="1732376472"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/fulladder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/fulladder.sv"/>
+        <Attr Name="ImportTime" Val="1732189254"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv"/>
+        <Attr Name="ImportTime" Val="1732188989"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv"/>
+        <Attr Name="ImportTime" Val="1732367163"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Register/Assignment3-Register.srcs/sources_1/imports/new/n_bit_register.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Register/Assignment3-Register.srcs/sources_1/imports/new/n_bit_register.sv"/>
+        <Attr Name="ImportTime" Val="1732382229"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sev_seg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/sev_seg.sv"/>
+        <Attr Name="ImportTime" Val="1732082389"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sev_seg_controller.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/sev_seg_controller.sv"/>
+        <Attr Name="ImportTime" Val="1731499824"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sev_seg_decoder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/sev_seg_decoder.sv"/>
+        <Attr Name="ImportTime" Val="1731507504"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sevdecoder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/K2_Microprosser.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="K2_Microprosser"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/src/pin-assignment.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/pin-assignment.xdc"/>
+        <Attr Name="ImportTime" Val="1731445158"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

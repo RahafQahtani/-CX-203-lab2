@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv" \
+"../../../../../Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv" \
+"../../../../project_1.srcs/sources_1/imports/new/D Flip_Flop.sv" \
+"../../../../../Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv" \
+"../../../../project_1.srcs/sources_1/imports/new/Dlatch.sv" \
+"../../../../../Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Instruction_Memory.sv" \
+"../../../../project_1.srcs/sources_1/new/clock_divider.sv" \
+"../../../../project_1.srcs/sources_1/imports/src/counter_n_bit.sv" \
+"../../../../project_1.srcs/sources_1/imports/src/decoder.sv" \
+"../../../../../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/fulladder.sv" \
+"../../../../../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv" \
+"../../../../../chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv" \
+"../../../../../Downloads/Assignment3-Register/Assignment3-Register.srcs/sources_1/imports/new/n_bit_register.sv" \
+"../../../../project_1.srcs/sources_1/imports/src/sev_seg.sv" \
+"../../../../project_1.srcs/sources_1/imports/src/sev_seg_controller.sv" \
+"../../../../project_1.srcs/sources_1/imports/src/sev_seg_decoder.sv" \
+"../../../../project_1.srcs/sources_1/new/K2_Microprosser.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

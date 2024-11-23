@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1732387768">
+  <File Type="VDS-TIMING-PB" Name="K2_Microprosser_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="K2_Microprosser_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="K2_Microprosser.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="K2_Microprosser_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="K2_Microprosser_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="K2_Microprosser_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="K2_Microprosser.vds"/>
+  <File Type="REPORTS-TCL" Name="K2_Microprosser_reports.tcl"/>
+  <File Type="PA-TCL" Name="K2_Microprosser.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv"/>
+        <Attr Name="ImportTime" Val="1732189627"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv"/>
+        <Attr Name="ImportTime" Val="1732185176"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/D Flip_Flop.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/project_9/project_9.srcs/sources_1/imports/new/D Flip_Flop.sv"/>
+        <Attr Name="ImportTime" Val="1731924470"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv"/>
+        <Attr Name="ImportTime" Val="1732370862"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Dlatch.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/project_9/project_9.srcs/sources_1/imports/new/Dlatch.sv"/>
+        <Attr Name="ImportTime" Val="1731929228"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Instruction_Memory.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Instruction_Memory.sv"/>
+        <Attr Name="ImportTime" Val="1732370860"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Multiplexers/Assignment3-Multiplexers.srcs/sources_1/new/Multiplexers.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Multiplexers/Assignment3-Multiplexers.srcs/sources_1/new/Multiplexers.sv"/>
+        <Attr Name="ImportTime" Val="1732380167"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_divider.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/counter_n_bit.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/counter_n_bit.sv"/>
+        <Attr Name="ImportTime" Val="1731075515"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/decoder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/decoder.sv"/>
+        <Attr Name="ImportTime" Val="1732376472"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/fulladder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/fulladder.sv"/>
+        <Attr Name="ImportTime" Val="1732189254"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv"/>
+        <Attr Name="ImportTime" Val="1732188989"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv"/>
+        <Attr Name="ImportTime" Val="1732367163"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/it/Downloads/Assignment3-Register/Assignment3-Register.srcs/sources_1/imports/new/n_bit_register.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Assignment3-Register/Assignment3-Register.srcs/sources_1/imports/new/n_bit_register.sv"/>
+        <Attr Name="ImportTime" Val="1732382229"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sev_seg.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/sev_seg.sv"/>
+        <Attr Name="ImportTime" Val="1732082389"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sev_seg_controller.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/sev_seg_controller.sv"/>
+        <Attr Name="ImportTime" Val="1731499824"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sev_seg_decoder.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/sev_seg_decoder.sv"/>
+        <Attr Name="ImportTime" Val="1731507504"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sevdecoder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/K2_Microprosser.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="K2_Microprosser"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/src/pin-assignment.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/Lab3/task1/src/pin-assignment.xdc"/>
+        <Attr Name="ImportTime" Val="1731445158"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

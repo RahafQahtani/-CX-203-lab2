@@ -1,0 +1,43 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter
+WARNING: [VRFC 10-3467] initial value of parameter 'n' is omitted [/home/it/Downloads/Assignment3-Counter/Assignment3-Counter.srcs/sources_1/new/Counter.sv:23]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/imports/new/D Flip_Flop.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DFlip_Flop
+INFO: [VRFC 10-2458] undeclared symbol reset, assumed default net type wire [/home/it/project_1/project_1.srcs/sources_1/imports/new/D Flip_Flop.sv:32]
+INFO: [VRFC 10-2458] undeclared symbol CLK100MHZ, assumed default net type wire [/home/it/project_1/project_1.srcs/sources_1/imports/new/D Flip_Flop.sv:36]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Data_Memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/imports/new/Dlatch.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dlatch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/Downloads/Assignment3-Instruction_Memory/Assignment3-Instruction_Memory.srcs/sources_1/new/Instruction_Memory.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Instruction_Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/new/clock_divider.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/imports/src/counter_n_bit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_n_bit
+WARNING: [VRFC 10-3467] initial value of parameter 'n' is omitted [/home/it/project_1/project_1.srcs/sources_1/imports/src/counter_n_bit.sv:2]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/imports/src/decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/fulladder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module halfadder
+WARNING: [VRFC 10-3676] redeclaration of ansi port 's' is not allowed [/home/it/chip_design/commoncore/digitaldesign/project/ALU/ALU.srcs/sources_1/new/halfadder.sv:31]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/chip_design/commoncore/digitaldesign/project/decoder/decoder.srcs/sources_1/new/instructions_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructions_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/Downloads/Assignment3-Register/Assignment3-Register.srcs/sources_1/imports/new/n_bit_register.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_register
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sev_seg_top
+INFO: [VRFC 10-2458] undeclared symbol reset, assumed default net type wire [/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg.sv:54]
+INFO: [VRFC 10-2458] undeclared symbol count, assumed default net type wire [/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg.sv:55]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sev_seg_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/imports/src/sev_seg_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_seg_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/it/project_1/project_1.srcs/sources_1/new/K2_Microprosser.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module K2_Microprosser
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/it/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
